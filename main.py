@@ -5,7 +5,7 @@ import time
 import re
 
 #Globals
-VERSION = 1.1
+VERSION = 1.2
 POST_DELAY = 10 #seconds
 REACTION_TICKER = 10 #minutes
 REACTION_TIMEOUT = 3 #days
@@ -49,7 +49,7 @@ def blacklist(post):
 
 #The main looping part of the program
 def main():
-    print("Bestiary bot" + str(VERSION) + "has loaded!")
+    print("Bestiary bot " + str(VERSION) + " has loaded!")
     while True:
         try:
             for post in bossfightbestiary.stream.submissions():
