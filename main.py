@@ -12,8 +12,8 @@ REACTION_TIMEOUT = 3 #days
 VOTE_THRESHOLD = 3 #score
 
 #Setup
-BLACKLIST_LOCATION = "/home/liam/application_data/atom/reddit/BestiaryBot/blacklist.txt"
-LOGIN_LOCATION = "/home/liam/application_data/atom/reddit/BestiaryBot/login.txt"
+BLACKLIST_LOCATION = "blacklist.txt"
+LOGIN_LOCATION = "login.txt"
 
 login_file = open(LOGIN_LOCATION, "r")
 
